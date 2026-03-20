@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Smart Farming Data App")
+st.title("Streamlit data cleaning App")
 
 uploaded_file = st.file_uploader("Upload your Excel file", type=["xlsx"])
 
